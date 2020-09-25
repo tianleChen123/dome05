@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="名字    电话    时间    时长"
+        android:paddingStart="@dimen/pad_left"
+        android:paddingLeft="@dimen/pad_left"
+        android:textSize="30sp"
+        tools:ignore="NestedWeights,RtlSymmetry,Suspicious0dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recent_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
